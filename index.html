@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <script src = "script.js" defer></script>
+    <title>Weather</title>
+</head>
+<body>
+    <h2>Weather Search</h2>
+    <form>
+        <label for = "city">City: </label>
+        <input type = "text" id = "city" required minlength="2">
+        <label for = "country">Country or State (full name or symbol): </label>
+        <input type = "text" id = "country" required minlength="2">
+        <label for = "us">
+            Unit: US 
+            <input type = "checkbox" id = "us">
+        </label>
+        <label for = "metric">
+            Unit: Metric 
+            <input type = "checkbox" id = "metric">
+        </label>
+        <button type = "submit">Submit</button>
+    </form>
+</body>
+</html>
